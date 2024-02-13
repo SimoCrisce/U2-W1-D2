@@ -425,16 +425,31 @@ footer a {
     top: -1rem;
   }
 
+  aside div p:nth-child(3) {
+    text-align: right;
+  }
+
+  aside div {
+    position: relative;
+  }
+  .fas.fa-tag {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #cecece;
+  }
+
   .to-top {
     position: fixed;
     right: 0;
     bottom: 0;
     padding: 0.3rem 0.5rem;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 1rem;
     border-radius: 10px;
     color: #f65f5f;
     border: 2px solid white;
+    backdrop-filter: blur(2px);
   }
 
   .icon1 {
@@ -442,12 +457,13 @@ footer a {
     right: 0;
     bottom: 0;
     padding: 0.3rem 0.5rem;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 1rem;
     border-radius: 10px;
     color: #2062b9;
     border: 2px solid white;
     margin-block: 4rem;
+    backdrop-filter: blur(2px);
   }
 
   .icon2 {
@@ -455,12 +471,13 @@ footer a {
     right: 0;
     bottom: 0;
     padding: 0.3rem 0.5rem;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 1rem;
     border-radius: 10px;
     color: #2062b9;
     border: 2px solid white;
     margin-block: 7rem;
+    backdrop-filter: blur(2px);
   }
   .orange {
     color: #f65f5f;
@@ -491,16 +508,31 @@ footer a {
     opacity: 0.5;
   }
 
+  aside div p:nth-child(3) {
+    text-align: right;
+  }
+
+  aside div {
+    position: relative;
+  }
+  .fas.fa-tag {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #cecece;
+  }
+
   .to-top {
     position: fixed;
     right: 0;
     bottom: 0;
     padding: 0.3rem 0.5rem;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 1rem;
     border-radius: 10px;
     color: #f65f5f;
     border: 2px solid white;
+    backdrop-filter: blur(2px);
   }
 
   .icon2 {
@@ -508,11 +540,12 @@ footer a {
     right: 0;
     top: 0;
     padding: 0.3rem 0.5rem;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 1rem;
     border-radius: 10px;
     color: #2062b9;
     border: 2px solid white;
+    backdrop-filter: blur(2px);
     z-index: 2;
   }
   .icon1 {
@@ -520,11 +553,12 @@ footer a {
     right: 0;
     top: 0;
     padding: 0.3rem 0.5rem;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 1rem;
     border-radius: 10px;
     color: #2062b9;
     border: 2px solid white;
+    backdrop-filter: blur(2px);
     margin-block: 4rem;
     z-index: 2;
   }
